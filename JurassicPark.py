@@ -281,3 +281,4 @@ if __name__ == '__main__':
         out=traceback.format_exc()
         logging.debug(out)
         curses.endwin()
+

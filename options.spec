@@ -20,3 +20,4 @@ coll = COLLECT(exe,
                strip=None,
                upx=True,
                name='options')
+
