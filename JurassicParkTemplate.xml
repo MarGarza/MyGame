@@ -1,0 +1,36 @@
+<game>
+    <intro>
+        <text/>
+        <include/>
+    </intro>
+    <player>
+        <text/>
+        <level/>
+        <item/>
+        <include/>
+    </player>
+    <enemy>
+        <text/>
+        <level/>
+        <include/>
+    </enemy>
+    <room>
+        <text/>
+        <include/>
+        <door/>
+        <treasure>
+            <include/>
+            <item/>
+        </treasure>
+        <interactable>
+            <text/>
+            <item/>
+        </interactable>
+        <enemy/>
+    </room>
+    <ending>
+        <text/>
+        <include/>
+    </ending>
+
+</game>

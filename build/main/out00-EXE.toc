@@ -1,0 +1,9 @@
+('/Users/mgarza/Repos/mygame/build/main/main',
+ True,
+ False,
+ None,
+ None,
+ [],
+ None,
+ False,
+ 1415903680)

@@ -1,0 +1,1548 @@
+DEBUG:root:112
+DEBUG:root:112
+DEBUG:root:113
+DEBUG:root:113
+DEBUG:root:258
+DEBUG:root:112
+DEBUG:root:112
+DEBUG:root:113
+DEBUG:root:112
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 65, in _main_menu
+    game.play()
+  File "/Users/mgarza/Repos/mygame/engine.py", line 666, in play
+    self._setup_room(player_position)
+  File "/Users/mgarza/Repos/mygame/engine.py", line 178, in _setup_room
+    self._update_player_stats()
+  File "/Users/mgarza/Repos/mygame/engine.py", line 79, in _update_player_stats
+    player_stats_cont = 'Experience Points: ' + str(self._game.player[0].attrs['experience']) + '    Weapon: '+weapon_name
+NameError: global name 'weapon_name' is not defined
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Pistol.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Rifle.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Sound/Shotgun.wav
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 86, in <module>
+    if __name__ == '__main__':
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 71, in _main_menu
+    game.play(intro=False)
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 88, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 73, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 88, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 73, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 88, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 17, in __init__
+    self._main_menu()
+  File "main.py", line 73, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 88, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 16, in __init__
+    self._main_menu()
+  File "main.py", line 72, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:running main
+DEBUG:root:passed initalizing with xml
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 16, in __init__
+    self._main_menu()
+  File "main.py", line 73, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:running main
+DEBUG:root:passed initalizing with xml
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 16, in __init__
+    self._main_menu()
+  File "main.py", line 73, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:running main
+DEBUG:root:passed initalizing with xml
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 16, in __init__
+    self._main_menu()
+  File "main.py", line 73, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:running main
+DEBUG:root:passed initalizing with xml
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 16, in __init__
+    self._main_menu()
+  File "main.py", line 73, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:running main
+DEBUG:root:passed initalizing with xml
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 16, in __init__
+    self._main_menu()
+  File "main.py", line 73, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:running main
+DEBUG:root:passed initalizing with xml
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 16, in __init__
+    self._main_menu()
+  File "main.py", line 73, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:running main
+DEBUG:root:passed initalizing with xml
+DEBUG:root:running main
+DEBUG:root:passed initalizing with xml
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 16, in __init__
+    self._main_menu()
+  File "main.py", line 73, in _main_menu
+    sys.exit()
+SystemExit
+
+DEBUG:root:running main
+DEBUG:root:passed initalizing with xml
+DEBUG:root:Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    curses.wrapper(Main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "main.py", line 16, in __init__
+    self._main_menu()
+  File "main.py", line 73, in _main_menu
+    sys.exit()
+SystemExit
+

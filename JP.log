@@ -1,0 +1,250 @@
+DEBUG:root:Traceback (most recent call last):
+  File "JurassicPark.py", line 234, in <module>
+    curses.wrapper(jp.main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "JurassicPark.py", line 26, in main
+    self.main_menu()
+  File "JurassicPark.py", line 218, in main_menu
+    self.play()
+  File "JurassicPark.py", line 81, in play
+    self.interact()
+  File "JurassicPark.py", line 183, in interact
+    self.open_treasure(y, x)
+  File "JurassicPark.py", line 163, in open_treasure
+    item_names += item.attrs['name']
+KeyError: 'name'
+
+DEBUG:root:You cannot open this treasure you need Security Room Key
+DEBUG:root:You have received Security Room Key.
+DEBUG:root:You have received small potion.
+DEBUG:root:You unlocked this treasure with Security Room Key
+DEBUG:root:You cannot open this treasure you need Security Room Key
+DEBUG:root:You cannot open this treasure you need Security Room Key
+DEBUG:root:You tried to open door
+DEBUG:root:0
+DEBUG:root:You have received Security Room Key.
+DEBUG:root:You cannot open this treasure you need Security Room Key
+DEBUG:root:You have received Security Room Key.
+DEBUG:root:You cannot open this treasure you need Security Room Key
+DEBUG:root:You have received Security Room Key.
+DEBUG:root:You have received small potion.
+DEBUG:root:You unlocked this treasure with Security Room Key
+DEBUG:root:You tried to open door
+DEBUG:root:0
+DEBUG:root:You have received Security Room Key.
+DEBUG:root:You have received small potion.
+DEBUG:root:You unlocked this treasure with Security Room Key
+DEBUG:root:You cannot open this treasure you need Security Room Key
+DEBUG:root:Traceback (most recent call last):
+  File "JurassicPark.py", line 270, in <module>
+    curses.wrapper(jp.main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "JurassicPark.py", line 27, in main
+    self.main_menu()
+  File "JurassicPark.py", line 254, in main_menu
+    self.play()
+  File "JurassicPark.py", line 82, in play
+    self.interact()
+  File "JurassicPark.py", line 213, in interact
+    self.change_room(y, x)
+  File "JurassicPark.py", line 142, in change_room
+    for room in self.game.room[self.player_room_index].room:
+AttributeError: 'room_q2class' object has no attribute 'room'
+
+DEBUG:root:Traceback (most recent call last):
+  File "JurassicPark.py", line 270, in <module>
+    curses.wrapper(jp.main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "JurassicPark.py", line 27, in main
+    self.main_menu()
+  File "JurassicPark.py", line 254, in main_menu
+    self.play()
+  File "JurassicPark.py", line 82, in play
+    self.interact()
+  File "JurassicPark.py", line 213, in interact
+    self.change_room(y, x)
+  File "JurassicPark.py", line 143, in change_room
+    if new_room == door.atters['id'] and door.attrs['condition'] == 'open':
+AttributeError: 'door_q2class' object has no attribute 'atters'
+
+DEBUG:root:Traceback (most recent call last):
+  File "JurassicPark.py", line 270, in <module>
+    curses.wrapper(jp.main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "JurassicPark.py", line 27, in main
+    self.main_menu()
+  File "JurassicPark.py", line 254, in main_menu
+    self.play()
+  File "JurassicPark.py", line 82, in play
+    self.interact()
+  File "JurassicPark.py", line 213, in interact
+    self.change_room(y, x)
+  File "JurassicPark.py", line 143, in change_room
+    if new_room == door.atters['id'] and door.attrs['condition'] == 'open':
+AttributeError: 'door_q2class' object has no attribute 'atters'
+
+DEBUG:root:0
+DEBUG:root:0
+DEBUG:root:0
+DEBUG:root:0
+DEBUG:root:0
+DEBUG:root:0
+DEBUG:root:Traceback (most recent call last):
+  File "JurassicPark.py", line 276, in <module>
+    curses.wrapper(jp.main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "JurassicPark.py", line 27, in main
+    self.main_menu()
+  File "JurassicPark.py", line 260, in main_menu
+    self.play()
+  File "JurassicPark.py", line 82, in play
+    self.interact()
+  File "JurassicPark.py", line 216, in interact
+    result = self.change_room(y, x)
+  File "JurassicPark.py", line 145, in change_room
+    self.player_room_name = door.attrs['connects_to']
+KeyError: 'connects_to'
+
+DEBUG:root:0
+DEBUG:root:0
+DEBUG:root:0
+DEBUG:root:Security Room Corridor
+DEBUG:root:True
+DEBUG:root:1
+DEBUG:root:0
+DEBUG:root:Security Room Corridor
+DEBUG:root:0
+DEBUG:root:1
+DEBUG:root:1
+DEBUG:root:Security Room
+DEBUG:root:True
+DEBUG:root:0
+DEBUG:root:0
+DEBUG:root:Security Room Corridor
+DEBUG:root:0
+DEBUG:root:1
+DEBUG:root:1
+DEBUG:root:Security Room
+DEBUG:root:True
+DEBUG:root:0
+DEBUG:root:0
+DEBUG:root:Security Room Corridor
+DEBUG:root:True
+DEBUG:root:1
+DEBUG:root:Traceback (most recent call last):
+  File "JurassicPark.py", line 279, in <module>
+    curses.wrapper(jp.main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "JurassicPark.py", line 27, in main
+    self.main_menu()
+  File "JurassicPark.py", line 263, in main_menu
+    self.play()
+  File "JurassicPark.py", line 82, in play
+    self.interact()
+  File "JurassicPark.py", line 218, in interact
+    result = self.change_room(y, x)
+  File "JurassicPark.py", line 153, in change_room
+    if door.attrs['requirements'] in inventory_items:
+KeyError: 'requirements'
+
+DEBUG:root:0
+DEBUG:root:Security Room Corridor
+DEBUG:root:0
+DEBUG:root:Traceback (most recent call last):
+  File "JurassicPark.py", line 279, in <module>
+    curses.wrapper(jp.main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "JurassicPark.py", line 27, in main
+    self.main_menu()
+  File "JurassicPark.py", line 263, in main_menu
+    self.play()
+  File "JurassicPark.py", line 82, in play
+    self.interact()
+  File "JurassicPark.py", line 221, in interact
+    self.player_position = self.display_room()
+  File "JurassicPark.py", line 110, in display_room
+    treasure_id = self.game.room[self.player_room_index].treasure[t_index].attrs['id']
+KeyError: 'id'
+
+DEBUG:root:0
+DEBUG:root:Security Room Corridor
+DEBUG:root:0
+DEBUG:root:Traceback (most recent call last):
+  File "JurassicPark.py", line 279, in <module>
+    curses.wrapper(jp.main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "JurassicPark.py", line 27, in main
+    self.main_menu()
+  File "JurassicPark.py", line 263, in main_menu
+    self.play()
+  File "JurassicPark.py", line 82, in play
+    self.interact()
+  File "JurassicPark.py", line 221, in interact
+    self.player_position = self.display_room()
+  File "JurassicPark.py", line 110, in display_room
+    treasure_id = treasure.attrs['id']#self.game.room[self.player_room_index].treasure[t_index].attrs['id']
+KeyError: 'id'
+
+DEBUG:root:0
+DEBUG:root:Security Room Corridor
+DEBUG:root:0
+DEBUG:root:Traceback (most recent call last):
+  File "JurassicPark.py", line 279, in <module>
+    curses.wrapper(jp.main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "JurassicPark.py", line 27, in main
+    self.main_menu()
+  File "JurassicPark.py", line 263, in main_menu
+    self.play()
+  File "JurassicPark.py", line 82, in play
+    self.interact()
+  File "JurassicPark.py", line 221, in interact
+    self.player_position = self.display_room()
+  File "JurassicPark.py", line 110, in display_room
+    treasure_id = treasure.attrs['id']#self.game.room[self.player_room_index].treasure[t_index].attrs['id']
+KeyError: 'id'
+
+DEBUG:root:0
+DEBUG:root:Security Room Corridor
+DEBUG:root:0
+DEBUG:root:Traceback (most recent call last):
+  File "JurassicPark.py", line 279, in <module>
+    curses.wrapper(jp.main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "JurassicPark.py", line 27, in main
+    self.main_menu()
+  File "JurassicPark.py", line 263, in main_menu
+    self.play()
+  File "JurassicPark.py", line 82, in play
+    self.interact()
+  File "JurassicPark.py", line 221, in interact
+    self.player_position = self.display_room()
+  File "JurassicPark.py", line 110, in display_room
+    treasure_id = self.game.room[self.player_room_index].treasure[t_index].attrs['id']
+KeyError: 'id'
+
+DEBUG:root:Traceback (most recent call last):
+  File "JurassicPark.py", line 279, in <module>
+    curses.wrapper(jp.main)
+  File "/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/curses/wrapper.py", line 43, in wrapper
+    return func(stdscr, *args, **kwds)
+  File "JurassicPark.py", line 27, in main
+    self.main_menu()
+  File "JurassicPark.py", line 263, in main_menu
+    self.play()
+  File "JurassicPark.py", line 64, in play
+    self.player_position = self.display_room()
+  File "JurassicPark.py", line 111, in display_room
+    treasure_loc = treasure.location[0].value.strip()
+AttributeError: 'treasure_q2class' object has no attribute 'location'
+

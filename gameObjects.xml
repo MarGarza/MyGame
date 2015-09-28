@@ -1,0 +1,135 @@
+<game>
+	<intro>
+        You awake feeling fuzzy and disoriented chained to a wall by your neck. As you try to wiggle free
+        you bite the chain. To your surprise your bite has enough strength to crack the metal in the chain.
+        It is only now that you look down and notice your left paw and hind leg are made of metal but you
+        are able move like them like you would your own. Your pulse increases as you bite through the chain
+        and use your retina display to scan the room...
+	</intro>
+
+	<room id = "0" name = "Cyborg Project Lab">
+		<description>
+            You are in the Cyborg Project Lab. The ceiling has several window like mirrors, probably two-way
+            mirrors where humans could watch the room from above. You shudder as you wonder whether or not someone
+            is on the other side now.
+		</description>
+
+		<item id="0" name="table">
+			<description>
+				A surgical table with spots of dried blood and oil on the metallic surface.
+			</description>
+		</item>
+
+		<item id="1" name="computer">
+			<description>
+				A computer screen frozen to an image of your x-rays, you can see the extensive amount of
+                wire and metal components that have been added to your internal organs and limbs.
+                On the side of the x-rays it reads:
+
+                Species: Canine
+                Breed: Standard Poodle
+                Gender: Male
+                Color: Black
+                Notes: Control panel added to base of skull made to allow for system upgrades. Subject's
+                       vertebrae, jaw bone, front and back left side limb biomechatronic parts along with the
+                       silicon and biotissue add around the heart have been successfully integrated with the
+                       Subject's organic tissue.
+
+			</description>
+		</item>
+
+		<item id="2" name="cyborg machine">
+			<description>
+				An advanced surgical machine with several robotic arms. You can use found cyborg parts to
+                upgrade your abilities with this machine.
+			</description>
+		</item>
+
+		<exit id="west" conditition="open">
+			<description>
+				strong looking door made of steel on the west side of the room
+			</description>
+			<connect>
+				1
+			</connect>
+		</exit>
+	</room>
+
+    <room id="1" name="Experimental Labs Hallway">
+        <description>
+            You’re standing in the Experimental Labs Hallway. The hallway has a pungent disinfectant smell
+            and is extremely clean.
+        </description>
+        <exit id="west" conditition="open">
+            <description>
+                door made of steel is to the west
+            </description>
+            <connect>
+                2
+            </connect>
+        </exit>
+        <exit id="east" conditition="open">
+            <description>
+                door made of steel is to the east
+            </description>
+            <connect>
+                0
+            </connect>
+        </exit>
+        <exit id="north" conditition="locked">
+            <description>
+                door that requires an employee id to operate
+            </description>
+            <connect>
+                3
+            </connect>
+        </exit>
+    </room>
+
+    <room id="2" name="Prehistoric Project Lab">
+        <description>
+            A room similar to the one you woke in however this room is much larger. The two-way mirrors
+            are broken, its dark on the inside but you can see large amounts of blood.
+        </description>
+        <item id="1" name="body">
+            <description>
+                A human body has been torn tomnshreds making you wonder what creatures could have done this.
+            </description>
+            <item id="0" name="note">
+                A note that reads 'Passcode: 0971'
+            </item>
+        </item>
+        <item id="0" name="safe" condition="locked">
+            <description>
+                A safe that requires a 4 digit passcode
+            </description>
+            <item id="0" name="id">
+                Employee ID
+            </item>
+        </item>
+        <item id="0" name="incubators">
+			<description>
+				Several large incubators line the walls, they are broken from the inside out as if something powerful escaped.
+                The foolish humans must have created something they couldn't control.
+			</description>
+		</item>
+
+		<item id="1" name="computer">
+			<description>
+				A broken computer, you are not able to get any information from it.
+			</description>
+		</item>
+        <exit id="west" conditition="open">
+            <description>
+                door made of steel is to the west
+            </description>
+            <connect>
+                1
+            </connect>
+        </exit>
+    </room>
+
+	<ending>
+		You have exited the building alive!
+	</ending>
+</game>

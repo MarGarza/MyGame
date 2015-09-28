@@ -1,0 +1,269 @@
+<game>
+    <intro>
+        <text>
+            You recall the moment you signed up to be apart of the team of mercenaries hired by RHINO, a large
+            private company with a very large checkbook. The team's mission was to go to Isla Nublar and recover
+            any viable dinosaur embryos abandoned by John Hammond and his scientists when a rogue developer
+            set all the dinosaurs in the park free.
+        </text>
+        <text>
+            Everything had been going according to plan until the team reached the Visitor Center and the
+            security system trapped the team inside. This turned out to be a deadly turn of events as you
+            realized the interior of the Visitor Center was crawling with carnivorous dinosaurs. You were
+            able to lock yourself in the Emergency Bunker but the rest of your team were killed.
+        </text>
+        <text>
+            The Emergency Bunker has kept you safe from the carnivorous dinosaurs but now that you have finally
+            made radio contact with a rescue helicopter you will have to find your way out of the Visitor Center
+            to the helipad. You steady your breath as grab your pistol and prepare to leave the safety of the
+            Emergency Bunker.
+        </text>
+        <include type="image">ASCII/jp_logo.txt</include>
+    </intro>
+    <player position="Emergency Bunker" current_health="100" level="1" experience="0" defense = "-5" strength = "10">
+        <level level = "1" max_health = "100" defense = "5" strength = "10" exp_to_next= "150"/>
+        <level level = "2" max_health = "150" defense = "10" strength = "20" exp_to_next = "300"/>
+        <level level = "3" max_health = "200" defense = "15" strength = "30" exp_to_next = "800"/>
+        <level level = "4" max_health = "250" defense = "20" strength = "35" exp_to_next = "1500"/>
+        <level level = "5" max_health = "300" defense = "25" strength = "40" exp_to_next = "3000"/>
+        <level level = "6" max_health = "350" defense = "30" strength = "45" exp_to_next = "5000"/>
+        <level level = "7" max_health = "400" defense = "35" strength = "50" exp_to_next = "10000"/>
+        <item name ="Pistol" type="weapon" strength="0">pistol</item>
+        <item name="healing potion" type="potion">healing potion</item>
+        <item name="Dinosaur Embryos" type="key">Dinosaur Embryos</item>
+        <item name="Hammond's Key Code" type="key">Hammond's Key Code</item>
+    </player>
+    <enemy name="Trex" movement_interval="1">
+        <text>
+     _cQ=-._     _
+    '^^`).  `\_.//
+ o    ^^'\( ,_.-'  o
+ |     " |/|/       \    o__
+/\        ^ ^       /\     /\
+        </text>
+    </enemy>
+    <enemy name="Velociraptor" movement_interval="0.25">
+        <text>
+            This 11 foot long incredibly intelligent pack hunter dinosaur lived during the early Cretaceous Period,
+            about 115–108 million years ago. In addition to problem-solving intelligence, one of Velociraptor’s
+            defining features is an oversized, sickle-shaped talon on each foot. These talons are used during hunting
+            and combat to inflict deep and fatal wounds.
+        </text>
+        <level health = "40" defense = "0" strength = "30" exp_points="25" level="1"/>
+        <level health = "80" defense = "0" strength = "50" exp_points="30" level="2"/>
+        <level health = "120" defense = "0" strength = "60" exp_points="35" level="3"/>
+        <level health = "160" defense = "0" strength = "75" exp_points="40" level="4"/>
+        <level health = "200" defense = "0" strength = "100" exp_points="45" level="5"/>
+    </enemy>
+    <enemy name="Dilophosaurus" movement_interval="0.40">
+        <text>
+            Mostly known for their ability to spit a blinding poison towards it's pray Dilophosauras have long and
+            slender, rear-curving teeth in long jaws and strong front arms which are effective in grabbing prey. This
+            creature lived during the early Jurassic period about 193 million years ago.
+        </text>
+        <level health = "30" defense = "0" strength = "15" exp_points="20" level="1"/>
+        <level health = "60" defense = "0" strength = "20" exp_points="25" level="2"/>
+        <level health = "90" defense = "0" strength = "25" exp_points="30" level="3"/>
+        <level health = "120" defense = "0" strength = "30" exp_points="35" level="4"/>
+        <level health = "150" defense = "0" strength = "40" exp_points="40" level="5"/>
+    </enemy>
+    <enemy name="Compsognathus" movement_interval="0.30">
+        <text>
+            Compsognathus grew to be about the size of a turkey. Though small these dinosuars can be deadly as they
+            hunt in large packs to take down larger prey.
+        </text>
+        <level health="20" defense="0" strength="10" exp_points="10" level="1"/>
+        <level health="40" defense="0" strength="15" exp_points="15" level="2"/>
+        <level health="60" defense="0" strength="20" exp_points="20" level="3"/>
+        <level health="70" defense="0" strength="25" exp_points="25" level="4"/>
+    </enemy>
+    <room id="Emergency Bunker" player_start="8, 27">
+        <include type="image">ASCII/emergency bunker.txt</include>
+        <door id="0" condition="open" requirements="Emergency Bunker Key" connect_to="Security Room" coordinates="9, 50" hidden="False" player_start="9, 2"/>
+        <treasure id="0" status="full" condition="open" coordinates="3, 6" hidden="False">
+            <item name="Emergency Bunker Key" type="key">Security Room Key</item>
+        </treasure>
+        <treasure id="1" status="full" condition="locked" requirements="Emergency Bunker Key" coordinates="3, 46" hidden="False">
+            <item name="healing potion" type="potion">healing potion</item>
+        </treasure>
+    </room>
+    <room id="Security Room" player_start="11, 4">
+        <include type="image">ASCII/security room.txt</include>
+        <door id="0" condition="open" connect_to="Emergency Bunker" coordinates="9, 1" hidden="False" player_start="9, 49"/>
+        <door id="1" condition="open" connect_to="Main Lobby" coordinates="16, 32" hidden="False" player_start="14, 2"/>
+        <enemy id="0" type ="Compsognathus" level="1" coordinates="17, 22"/>
+        <enemy id="1" type ="Compsognathus" level="1" coordinates="7, 22"/>
+        <enemy id="2" type ="Compsognathus" level="1" coordinates="10, 22"/>
+        <treasure id="0" status="full" condition="open" coordinates="10, 11" hidden="False" unhide="no enemies">
+            <item name="Parasaurolophus Parts" type="key">Parasaurolophus Parts</item>
+        </treasure>
+    </room>
+    <room id="Main Lobby" player_start="14, 9">
+        <include type="image">ASCII/main lobby.txt</include>
+        <door id="0" condition="open"  connect_to="Security Room" coordinates="14, 1" hidden="False" player_start="16, 31"/>
+        <door id="1" condition="open"  connect_to="Gift Shop" coordinates="14, 63" hidden="False" player_start="12, 2"/>
+        <door id="2" condition="open"  connect_to="2nd Floor Lobby" coordinates="1, 7" hidden="False" player_start="17, 12"/>
+        <door id="3" condition="open"  connect_to="2nd Floor Lobby" coordinates="1, 57" hidden="False" player_start="17, 50"/>
+        <door id="4" condition="locked"  requirements="Hammond's Key Code" connect_to="Exit" coordinates="20, 31" hidden="False" player_start="1, 1"/>
+        <enemy id="0" type ="Dilophosaurus" level="1" coordinates="7, 18"/>
+        <enemy id="1" type ="Dilophosaurus" level="1" coordinates="7, 47"/>
+        <enemy id="2" type ="Compsognathus" level="1" coordinates="9, 7"/>
+        <enemy id="3" type ="Compsognathus" level="2" coordinates="9, 57"/>
+        <enemy id="4" type ="Compsognathus" level="1" coordinates="17, 31"/>
+        <treasure id="0" status="full" condition="open" requirements="Lobby Safe Key" coordinates="7, 34" hidden="False">
+           <item name="healing potion" type="potion">healing potion</item>
+        </treasure>
+        <treasure id="1" status="full" condition="open" coordinates="3, 61" hidden="True" unhide="no enemies">
+            <item name ="Rifle" type="weapon" strength="15">rifle</item>
+        </treasure>
+    </room>
+    <room id="Gift Shop" player_start="12, 5">
+        <include type="image">ASCII/gift shop.txt</include>
+        <door id="0" condition="open"  connect_to="Main Lobby" coordinates="12, 1" hidden="False" player_start="14, 62"/>
+        <enemy id="0" type ="Compsognathus" level="2" coordinates="12, 48"/>
+        <enemy id="1" type ="Dilophosaurus" level="2" coordinates="12, 16"/>
+        <enemy id="2" type ="Dilophosaurus" level="2" coordinates="4, 32"/>
+        <enemy id="3" type ="Dilophosaurus" level="2" coordinates="7, 5"/>
+        <treasure id="0" status="full" condition="locked" requirements="Dilophosaurus Medallion" coordinates="6, 48" hidden="True" unhide="no enemies">
+            <item name="Triceratops Parts" type="key">Triceratops Parts</item>
+        </treasure>
+        <treasure id="1" status="full" condition="open" coordinates="22, 23" hidden="False">
+            <item name="Velociraptor Parts" type="key">Velociraptor Parts</item>
+        </treasure>
+    </room>
+    <room id="2nd Floor Lobby" player_start="14, 30">
+        <include type="image">ASCII/2nd floor lobby.txt</include>
+        <door id="0" condition="open" connect_to="Main Lobby" coordinates="18, 12" hidden="False" player_start="2, 7"/>
+        <door id="1" condition="open" connect_to="Main Lobby" coordinates="18, 50" hidden="False" player_start="2, 57"/>
+        <door id="2" condition="locked" requirements="Employee Badge" connect_to="Control Room" coordinates="10, 1" hidden="False" player_start="21, 37"/>
+        <door id="3" condition="open" connect_to="Exhibit Room" coordinates="1, 12" hidden="False" player_start="21, 12"/>
+        <door id="4" condition="open" connect_to="Exhibit Room" coordinates="1, 50" hidden="False" player_start="21, 52"/>
+        <door id="5" condition="open" connect_to="Restaurant" coordinates="10,59" hidden="False" player_start="10, 2"/>
+        <enemy id="0" type ="Compsognathus" level="2" coordinates="6, 13"/>
+        <enemy id="1" type ="Compsognathus" level="2" coordinates="6, 47"/>
+        <enemy id="2" type ="Dilophosaurus" level="2" coordinates="15, 56"/>
+        <enemy id="3" type ="Dilophosaurus" level="2" coordinates="15, 5"/>
+        <treasure id="0" status="full" condition="open" coordinates="11, 13" hidden="False">
+            <item name="healing potion" type="potion">healing potion</item>
+        </treasure>
+        <treasure id="1" status="full" condition="open" requirements="Velociraptor Medallion" coordinates="11, 47" hidden="True" unhide="no enemies">
+            <item name="Dilophosaurus Parts" type="key">Dilophosaurus Bones</item>
+        </treasure>
+    </room>
+    <room id="Exhibit Room" player_start="19, 47">
+        <include type="image">ASCII/exhibit room.txt</include>
+        <door id="0" condition="open" connect_to="2nd Floor Lobby" coordinates="22, 12" hidden="False" player_start="2, 12"/>
+        <door id="1" condition="open" connect_to="2nd Floor Lobby" coordinates="22, 52" hidden="False" player_start="2, 50"/>
+        <treasure id="bones0" status="full" condition="locked" requirements="Velociraptor Parts" coordinates="14, 8" hidden="False">
+            <include id="locked">A display of a Velocirpator's skeleton, it seems to be incomplete</include>
+            <include id="open">A display of a Velocirpator's skeleton</include>
+            <item name="Velociraptor Medallion" type="key">Velociraptor Medallion</item>
+        </treasure>
+        <treasure id="bones1" status="full" condition="locked" requirements="Parasaurolophus Parts" coordinates="6, 52" hidden="False">
+            <include id="locked">A display of a Parasaurolophus's skeleton, it seems to be incomplete</include>
+            <include id="open">A display of a Parasaurolophus's skeleton</include>
+            <item name="Parasaurolophus Medallion" type="key">Parasaurolophus Medallion</item>
+        </treasure>
+        <treasure id="bones2" status="full" condition="locked" requirements="Dilophosaurus Parts" coordinates="14, 59" hidden="False">
+            <include id="locked">A display of a Dilophosaurus's skeleton, it seems to be incomplete</include>
+            <include id="open">A display of a Dilophosaurus's skeleton</include>
+            <item name="Dilophosaurus Medallion" type="key">Dilophosaurus Medallion</item>
+        </treasure>
+        <treasure id="bones3" status="full" condition="locked" requirements="Tyrannosaurus Parts" coordinates="12, 33" hidden="False">
+            <include id="locked">A display of a Tyrannosaurus's skeleton, it seems to be incomplete</include>
+            <include id="open">A display of a Tyrannosaurus's skeleton</include>
+            <item name="Tyrannosaurus Medallion" type="key">Tyrannosaurus Medallion</item>
+        </treasure>
+        <treasure id="bones4" status="full" condition="locked" requirements="Triceratops Parts" coordinates="7, 33" hidden="False">
+            <include id="locked">A display of a Triceratops's skeleton, it seems to be incomplete</include>
+            <include id="open">A display of a Triceratops's skeleton</include>
+            <item name="Triceratops Medallion" type="key">Triceratops Medallion</item>
+        </treasure>
+        <treasure id="bones5" status="full" condition="locked" requirements="Stegosaurus Parts" coordinates="6, 14" hidden="False">
+            <include id="locked">A display of a Stegosaurus's skeleton, it seems to be incomplete</include>
+            <include id="open">A display of a Stegosaurus's skeleton</include>
+            <item name="Stegosaurus Medallion" type="key">Stegosaurus Medallion</item>
+        </treasure>
+        <treasure id="0" status="full" condition="open" coordinates="19, 33" hidden="True" unhide="Velociraptor Medallion,Parasaurolophus Medallion,Dilophosaurus Medallion,Tyrannosaurus Medallion,Triceratops Medallion,Stegosaurus Medallion">
+            <item name="Employee Badge" type="key">Employee Badge</item>
+        </treasure>
+    </room>
+    <room id="Restaurant" player_start="10,6">
+        <include type="image">ASCII/restaurant.txt</include>
+        <door id="0" condition="open" connect_to="2nd Floor Lobby" coordinates="10, 1" hidden="False" player_start="10, 58"/>
+        <door id="1" condition="open" connect_to="Kitchen" coordinates="1, 7" hidden="False" player_start="18, 6"/>
+        <treasure id="0" status="full" condition="locked" requirements="Parasaurolophus Medallion" coordinates="20, 36" hidden="False">
+            <item name="Stegosaurus Parts" type="key">Stegosaurus Parts</item>
+        </treasure>
+        <!--enemy id="0" type ="Velociraptor" level="2" coordinates="17, 13"/-->
+        <enemy id="1" type ="Compsognathus" level="3" coordinates="4, 15"/>
+        <enemy id="2" type ="Compsognathus" level="3" coordinates="17, 14"/>
+        <enemy id="3" type ="Dilophosaurus" level="2" coordinates="7, 6"/>
+        <enemy id="4" type ="Dilophosaurus" level="3" coordinates="16, 36"/>
+        <enemy id="5" type ="Dilophosaurus" level="2" coordinates="5, 45"/>
+    </room>
+    <room id="Kitchen" player_start="17,6">
+        <include type="image">ASCII/kitchen.txt</include>
+        <door id="0" condition="open" connect_to="Restaurant" coordinates="19, 6" hidden="False" player_start="2, 7"/>
+        <treasure id="0" status="full" condition="open" coordinates="17, 26" hidden="False">
+            <item name="healing potion" type="potion">healing potion</item>
+        </treasure>
+        <treasure id="1" status="full" condition="locked" requirements="Stegosaurus Medallion" coordinates="3, 40" hidden="True" unhide="no enemies">
+            <item name="Tyrannosaurus Parts" type="key">Tyrannosaurus Parts</item>
+        </treasure>
+        <enemy id="0" type ="Velociraptor" level="3" coordinates="8, 19"/>
+        <enemy id="1" type ="Velociraptor" level="3" coordinates="11, 43"/>
+        <enemy id="2" type ="Velociraptor" level="4" coordinates="5, 41"/>
+        <enemy id="3" type ="Velociraptor" level="3" coordinates="16, 27"/>
+        <enemy id="4" type ="Velociraptor" level="3" coordinates="4, 4"/>
+    </room>
+    <room id="Control Room" player_start="21, 35">
+        <include type="image">ASCII/control room.txt</include>
+        <door id="0" condition="open" connect_to="2nd Floor Lobby" coordinates="21, 38" hidden="False" player_start="10, 2"/>
+        <door id="1" condition="locked" requirements="Lab Passcode" connect_to="Jurassic Park Labs" coordinates="1, 6" hidden="False" player_start="25, 58"/>
+        <treasure id="computer1" status="full" condition="open" coordinates="10, 19" hidden="False">
+            <include id="locked">Jurassic Park's central computer, it needs a password</include>
+            <include id="open">Jurassic Park's central computer</include>
+            <item name="Lab Passcode" type="key">Lab Passcode</item>
+        </treasure>
+        <treasure id="computer2" status="full" condition="locked" requirements="Hammond's Key Code" coordinates="10, 19" hidden="True" unhide="Hammond's Key Code">
+            <include id="locked"> </include>
+            <include id="open"> </include>
+            <item name="Embryo Chamber Passcode" type="key">Embryo Chamber Passcode</item>
+        </treasure>
+        <treasure id="0" status="full" condition="open" coordinates="3, 31" hidden="True" unhide="no enemies">
+            <item name ="Shotgun" type="weapon" strength="30">shotgun</item>
+        </treasure>
+        <enemy id="0" type ="Velociraptor" level="4" coordinates="4, 31"/>
+        <enemy id="1" type ="Velociraptor" level="4" coordinates="8, 6"/>
+        <enemy id="2" type ="Dilophosaurus" level="4" coordinates="11, 6"/>
+        <enemy id="3" type ="Dilophosaurus" level="4" coordinates="5, 15"/>
+        <enemy id="4" type ="Dilophosaurus" level="4" coordinates="19, 19"/>
+    </room>
+    <room id="Jurassic Park Labs" player_start="24, 58">
+        <include type="image">ASCII/labs.txt</include>
+        <door id="0" condition="open" connect_to="Control Room" coordinates="26, 58" hidden="False" player_start="2, 6"/>
+        <door id="1" condition="locked" requirements="Embryo Chamber Passcode" connect_to="Embryo Chamber" coordinates="6, 70" hidden="True" unhide="Embryo Chamber Passcode" player_start="6, 2"/>
+        <treasure id="0" status="full" condition="open" coordinates="23, 68" hidden="False">
+            <item name="healing potion" type="potion">healing potion</item>
+        </treasure>
+        <treasure id="1" status="full" condition="open" coordinates="16, 22" hidden="True" unhide="no enemies">
+            <item name="Hammond's Key Code" type="key">Hammond's Key Code</item>
+        </treasure>
+        <enemy id="0" type ="Velociraptor" level="5" coordinates="10, 41"/>
+        <enemy id="1" type ="Velociraptor" level="5" coordinates="19, 65"/>
+        <enemy id="2" type ="Velociraptor" level="5" coordinates="11, 17"/>
+        <enemy id="3" type ="Velociraptor" level="5" coordinates="20, 7"/>
+        <enemy id="4" type ="Velociraptor" level="5" coordinates="6, 58"/>
+        <enemy id="5" type ="Velociraptor" level="5" coordinates="19, 30"/>
+        <enemy id="6" type ="Velociraptor" level="5" coordinates="12, 7"/>
+        <enemy id="7" type ="Velociraptor" level="5" coordinates="4, 13"/>
+    </room>
+    <room id="Embryo Chamber" player_start="6, 2">
+        <include type="image">ASCII/embryo chamber.txt</include>
+        <door id="0" condition="open" connect_to="Jurassic Park Labs" coordinates="6, 1" hidden="False" player_start="6, 69"/>
+        <treasure id="0" status="full" condition="open" coordinates="9, 32" hidden="False">
+            <item name="Dinosaur Embryos" type="key">Dinosaur Embryos</item>
+        </treasure>
+    </room>
+</game>
